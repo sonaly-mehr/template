@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         bonaNova: ["var(--font-bonaNova)"],
         cormorant: ["var(--font-cormorant)"],
+        arial: ["var(--font-arial)"],
       },
       colors: {
         primary: "#4D1513",

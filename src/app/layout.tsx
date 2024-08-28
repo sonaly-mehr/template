@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bona_Nova, Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
 const bonaNova = Bona_Nova({
   weight: ["400"],
@@ -11,6 +12,14 @@ const cormorant = Cormorant_Garamond({
   weight: ["400"],
   subsets: ["latin"],
   variable: "--font-cormorant",
+});
+const arial = localFont({
+  src: [
+    {
+      path: "../../public/fonts/arial.ttf",
+    },
+  ],
+  variable: "--font-arial",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bonaNova.variable} ${cormorant.variable}`}>
+      <body className={`${bonaNova.variable} ${cormorant.variable} ${arial.variable}`}>
         {children}
       </body>
     </html>

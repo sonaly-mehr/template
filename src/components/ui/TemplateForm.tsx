@@ -52,7 +52,7 @@ const TemplateForm = () => {
       <div className="flex justify-center">
         <button
           type="submit"
-          className="uppercase text-white text-center text-sm tracking-[0.13em] bg-primary w-[217px] h-[56px]"
+          className="uppercase text-white text-center font-arial font-normal text-sm tracking-[0.13em] bg-primary w-[217px] h-[56px]"
         >
           get the template
         </button>
