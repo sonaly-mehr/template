@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Bona_Nova, Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const bonaNova = Bona_Nova({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-bonaNova",
+});
+const cormorant = Cormorant_Garamond({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-cormorant",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${bonaNova.variable} ${cormorant.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

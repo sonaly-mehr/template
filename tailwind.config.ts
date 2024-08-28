@@ -8,10 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        bonaNova: ["var(--font-bonaNova)"],
+        cormorant: ["var(--font-cormorant)"],
+      },
+      colors: {
+        primary: "#4D1513",
+        dark: "#0F0F0F",
+        gray: "gray",
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          // sm: "1.5rem",
+          // lg: "2.5rem",
+          // xl: "5rem",
+          // "2xl": "7rem",
+        },
       },
     },
   },
