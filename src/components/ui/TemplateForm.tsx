@@ -42,7 +42,7 @@ const TemplateForm = () => {
         </div>
         <label
           htmlFor=""
-          className="font-cormorant text-base text-dark leading-[19.38px]"
+          className="text"
         >
           I have read and understand the Privacy and Cookies Policy and agree to
           receive personalised commercial communications from Rare Stationery by

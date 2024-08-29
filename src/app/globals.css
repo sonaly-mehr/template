@@ -3,26 +3,6 @@
 @tailwind utilities;
 
 
-/* input[type=checkbox] {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -o-appearance: none;
-    outline: none;
-    content: none;
+.text{
+    @apply text-base font-cormorant leading-[19.5px] text-dark
 }
-
-input[type=checkbox]:before {
-    content: "✓";
-    font-size: 16px;
-    color: transparent !important;
-    display: block;
-    width: 15px;
-    height: 15px;
-    border: 1px solid gray;
-    margin-right: 7px;
-}
-
-input[type=checkbox]:checked:before {
-    /* content: ""; */
-    /* color: black !important;
-} */ 
