@@ -26,7 +26,7 @@ const OurMission = () => {
         <div className="md:flex-1">
           <h5 className="uppercase text mb-5">OUR MISSION</h5>
           <div className="flex flex-col gap-3.5 xl:w-2/3">
-            <h4 className="font-bonaNova font-normal text-xl leading-[3.25rem] text-[#201006] -mb-1">
+            <h4 className="font-bonaNova font-normal text-xl leading-10 text-[#201006] -mb-1">
               Lorem ipsum dolor{" "}
               <span className="font-homemadeApple">sit amet.</span>
             </h4>
