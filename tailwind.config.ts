@@ -20,7 +20,6 @@ const config: Config = {
         gray: "gray",
       },
       container: {
-        center: true,
         padding: {
           DEFAULT: "1rem",
           sm: "1.5rem",

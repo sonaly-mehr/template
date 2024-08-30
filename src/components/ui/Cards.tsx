@@ -3,7 +3,7 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="container bg-white py-20 mt-10 lg:mt-0">
+    <div className="container mx-auto bg-white py-20 mt-10 lg:mt-0">
       <div>
         <h5 className="uppercase text mb-5">LOREM IPSUM</h5>
         <div className="flex flex-col md:flex-row md:justify-between gap-5">

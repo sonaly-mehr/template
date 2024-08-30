@@ -5,3 +5,15 @@
 .text{
   @apply text-base font-cormorant leading-5 text-dark
 }
+.scrollbar-hide {
+  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+/* WebKit-based browsers (Chrome, Safari) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar in WebKit-based browsers */
+}

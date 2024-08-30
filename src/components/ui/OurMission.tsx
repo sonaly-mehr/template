@@ -4,7 +4,7 @@ import React from "react";
 const OurMission = () => {
   return (
     <div className="w-full bg-[#F5F5F5] pt-24 pb-24 lg:pt-28 lg:pb-36">
-      <div className="container flex flex-col md:flex-row md:justify-between gap-14 lg:gap-8 items-center">
+      <div className="container mx-auto flex flex-col md:flex-row md:justify-between gap-14 lg:gap-8 items-center">
         <div className="w-full md:w-auto md:flex-1">
           <div className="relative md:w-fit">
             <Image
