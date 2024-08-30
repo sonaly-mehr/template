@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bona_Nova, Cormorant_Garamond, Inter } from "next/font/google";
+import { Bona_Nova, Cormorant_Garamond, Homemade_Apple } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 
@@ -12,6 +12,11 @@ const cormorant = Cormorant_Garamond({
   weight: ["400"],
   subsets: ["latin"],
   variable: "--font-cormorant",
+});
+const homemadeApple = Homemade_Apple({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-homemadeApple",
 });
 const arial = localFont({
   src: [
@@ -34,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bonaNova.variable} ${cormorant.variable} ${arial.variable}`}>
+      <body className={`${bonaNova.variable} ${cormorant.variable} ${arial.variable} ${homemadeApple.variable}`}>
         {children}
       </body>
     </html>

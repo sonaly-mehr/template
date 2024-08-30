@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .text{
-    @apply text-base font-cormorant leading-[19.5px] text-dark
+  @apply text-base font-cormorant leading-[19.5px] text-dark
 }

@@ -12,6 +12,7 @@ const config: Config = {
         bonaNova: ["var(--font-bonaNova)"],
         cormorant: ["var(--font-cormorant)"],
         arial: ["var(--font-arial)"],
+        homemadeApple: ["var(--font-homemadeApple)"],
       },
       colors: {
         primary: "#4D1513",
